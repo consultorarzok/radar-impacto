@@ -1,5 +1,22 @@
 [
   {
+    "id": "r-1789421218107",
+    "cat": "Policiales",
+    "title": "La otra cara del narco: bebés de la droga en América Latina",
+    "sub": "El consumo de drogas durante el embarazo está generando un aumento alarmante de bebés expuestos a sustancias nocivas en América Latina.",
+    "body": [
+      "El consumo de drogas por parte de madres durante el embarazo se ha convertido en un fenómeno preocupante en América Latina, donde se ha registrado un aumento significativo en el número de bebés recién nacidos expuestos a sustancias nocivas. Esta situación plantea serios riesgos para la salud de los neonatos, quienes pueden enfrentar complicaciones como bajo peso al nacer, prematurez, malformaciones y problemas de neurodesarrollo.",
+      "Los expertos advierten que esta crisis de salud pública requiere atención urgente, ya que los efectos del consumo de drogas durante el embarazo no solo impactan en la salud inmediata de los recién nacidos, sino que también pueden tener repercusiones a largo plazo en su desarrollo físico y mental. La falta de recursos y programas de prevención adecuados en la región agrava aún más esta problemática.",
+      "La situación refleja una necesidad imperiosa de implementar políticas de salud pública que aborden el consumo de drogas en mujeres embarazadas, así como de proporcionar apoyo y tratamiento a aquellas que enfrentan adicciones. Sin una intervención efectiva, el futuro de estos bebés y de la sociedad en general se ve comprometido."
+    ],
+    "credit": "Redacción Radar Impacto",
+    "medio": "Todo Jujuy",
+    "url_original": "https://www.todojujuy.com/la-otra-cara-del-narco-bebes-la-droga-america-latina-n296070",
+    "date": "2026-09-14T21:26:58.107Z",
+    "tags": [],
+    "img": "https://lh3.googleusercontent.com/d/1D39Bg892ocaH0NATxsXbPtTmeq_tyOBu"
+  },
+  {
     "id": "r-010",
     "cat": "Policiales",
     "title": "Demoraron a un adolescente y secuestraron dosis de droga que iba a vender",
@@ -14,7 +31,11 @@
     "medio": "Jujuy al Día",
     "url_original": "https://www.jujuyaldia.com.ar/2026/09/14/jujuy-demoraron-a-un-adolescente-y-secuestraron-dosis-de-estupefacientes-destinadas-a-la-comercializacion/",
     "date": "2026-09-14T20:32:32.129Z",
-    "tags": ["policiales", "el carmen", "drogas"],
+    "tags": [
+      "policiales",
+      "el carmen",
+      "drogas"
+    ],
     "img": "https://www.jujuyaldia.com.ar/wp-content/uploads/2026/09/1703-6aa7f305f2edc-e1789401105483.jpg"
   },
   {
@@ -33,7 +54,11 @@
     "medio": "El Tribuno de Jujuy",
     "url_original": "https://eltribunodejujuy.com/municipios/2026-9-14-14-34-0-piden-avanzar-con-la-municipalizacion-del-hospital-del-carmen",
     "date": "2026-09-14T18:01:57.648Z",
-    "tags": ["politica", "el carmen", "salud"]
+    "tags": [
+      "politica",
+      "el carmen",
+      "salud"
+    ]
   },
   {
     "id": "r-008",
@@ -51,7 +76,11 @@
     "medio": "Minuto Uno",
     "url_original": "https://www.minutouno.com/deportes/tragedia-el-entorno-vinicius-jr-murieron-su-guardaespaldas-y-su-esposa-n6321974",
     "date": "2026-09-14T15:31:57.435Z",
-    "tags": ["tragedia", "internacional", "futbol"],
+    "tags": [
+      "tragedia",
+      "internacional",
+      "futbol"
+    ],
     "img": "https://media.minutouno.com/p/7ad301c2ae4392ac722eb3dcc65f738d/adjuntos/150/imagenes/043/640/0043640757/610x0/809x365:829x385/vinicius-virginia-fonseca.jpg",
     "destacada": true
   },
@@ -71,7 +100,11 @@
     "medio": "Todo Jujuy",
     "url_original": "https://www.todojujuy.com/peregrinos-distintas-partes-la-puna-llegan-salta-n296035",
     "date": "2026-09-14T13:02:27.279Z",
-    "tags": ["insolito", "salta", "fe"],
+    "tags": [
+      "insolito",
+      "salta",
+      "fe"
+    ],
     "img": "https://media.todojujuy.com/p/a8d8c6178eb91be25034cb1d51482d3e/adjuntos/227/imagenes/003/483/0003483420/790x0/smart/milagro-salta-senor-y-virgen-del-milagro-8.jpeg"
   },
   {
@@ -89,7 +122,11 @@
     "medio": "Jujuy al Día",
     "url_original": "https://www.jujuyaldia.com.ar/2026/09/14/jujuy-el-dt-de-atletico-rafaela-fue-internado-por-precaucion-tras-una-indisposicion/",
     "date": "2026-09-14T10:01:51.520Z",
-    "tags": ["insolito", "futbol", "jujuy"],
+    "tags": [
+      "insolito",
+      "futbol",
+      "jujuy"
+    ],
     "img": "https://www.jujuyaldia.com.ar/wp-content/uploads/2026/09/tete-quiroz.png"
   },
   {
@@ -108,7 +145,11 @@
     "medio": "Todo Jujuy",
     "url_original": "https://www.todojujuy.com/jujuy/fne-2026-raul-jorge-destaco-el-companerismo-las-candidatas-la-n296019",
     "date": "2026-09-14T01:02:24.480Z",
-    "tags": ["politica", "jujuy", "fne"]
+    "tags": [
+      "politica",
+      "jujuy",
+      "fne"
+    ]
   },
   {
     "id": "r-004",
@@ -126,7 +167,11 @@
     "medio": "Infobae",
     "url_original": "https://www.infobae.com/deportes/2026/09/13/debuto-en-la-ufc-de-manera-imprevista-y-noqueo-a-su-rival-en-36-segundos-la-impactante-escena/",
     "date": "2026-09-13T23:02:04.962Z",
-    "tags": ["insolito", "ufc", "deportes"]
+    "tags": [
+      "insolito",
+      "ufc",
+      "deportes"
+    ]
   },
   {
     "id": "r-003",
@@ -144,7 +189,11 @@
     "medio": "El Submarino Jujuy",
     "url_original": "https://elsubmarinojujuy.com.ar/siguen-las-castraciones-gratuitas-por-los-barrios-capitalinos/",
     "date": "2026-09-13T20:32:18.193Z",
-    "tags": ["insolito", "jujuy", "mascotas"]
+    "tags": [
+      "insolito",
+      "jujuy",
+      "mascotas"
+    ]
   },
   {
     "id": "r-002",
@@ -159,7 +208,11 @@
     "medio": "TN",
     "url_original": "https://tn.com.ar/deportes/futbol/2026/09/13/sassuolo-vs-juventus-en-vivo-por-la-fecha-4-de-la-serie-a-de-italia-hora-donde-ver-y-formaciones/",
     "date": "2026-09-13T18:01:30.468Z",
-    "tags": ["deportes", "futbol", "italia"]
+    "tags": [
+      "deportes",
+      "futbol",
+      "italia"
+    ]
   },
   {
     "id": "r-001",
@@ -175,7 +228,11 @@
     "medio": "Todo Jujuy",
     "url_original": "https://www.todojujuy.com/policiales/tenia-pedido-captura-jujuy-y-fue-detenido-salta-n296002",
     "date": "2026-09-13T15:31:53.576Z",
-    "tags": ["policiales", "salta", "jujuy"],
+    "tags": [
+      "policiales",
+      "salta",
+      "jujuy"
+    ],
     "img": "https://media.todojujuy.com/p/3a83f45af074645f77d818d830621e2b/adjuntos/227/imagenes/003/483/0003483232/790x0/smart/tenia-pedido-captura-jujuy-y-fue-detenido-salta.webp"
   },
   {
@@ -193,7 +250,10 @@
     "medio": "Perfil",
     "url_original": "https://www.perfil.com/noticias/policia/crimen-en-misiones-hallaron-una-pistola-9-mm-en-la-casa-del-exsuegro-del-empresario-y-piloto-asesinado.phtml",
     "date": "2026-09-13T13:02:34.286Z",
-    "tags": ["policiales", "misiones"],
+    "tags": [
+      "policiales",
+      "misiones"
+    ],
     "img": "https://fotos.perfil.com/2026/09/13/trim/987/555/alfredo-wiebel-giampaoli-era-un-empresario-hotelero-y-piloto-2325171.jpg"
   },
   {
@@ -210,7 +270,10 @@
     "medio": "Las 24 Horas de Jujuy",
     "url_original": "https://las24horasdejujuy.com.ar/gimnasia-va-por-otra-final-ante-rafaela-y-busca-recuperar-la-cima-de-la-zona-b/",
     "date": "2026-09-13T10:01:53.404Z",
-    "tags": ["deportes", "gimnasia"],
+    "tags": [
+      "deportes",
+      "gimnasia"
+    ],
     "img": "https://las24horasdejujuy.com.ar/wp-content/uploads/2026/09/gyej-23-de-agosto.jpg"
   },
   {
@@ -228,7 +291,10 @@
     "medio": "La Nación",
     "url_original": "https://www.lanacion.com.ar/economia/campo/cambio-el-mercado-el-negocio-de-bajo-perfil-que-multiplico-por-20-sus-exportaciones-y-puso-al-pais-nid12092026/",
     "date": "2026-09-13T01:01:43.282Z",
-    "tags": ["economia", "exportaciones"]
+    "tags": [
+      "economia",
+      "exportaciones"
+    ]
   },
   {
     "id": "r-027",
@@ -244,7 +310,11 @@
     "medio": "Jujuy al Día",
     "url_original": "https://www.jujuyaldia.com.ar/2026/09/12/taller-para-estudiantes-de-fraile-pintado-construyendo-vinculos-desde-el-respeto-y-la-diversidad/",
     "date": "2026-09-12T23:02:06.500Z",
-    "tags": ["insolito", "fraile pintado", "educacion"],
+    "tags": [
+      "insolito",
+      "fraile pintado",
+      "educacion"
+    ],
     "img": "https://www.jujuyaldia.com.ar/wp-content/uploads/2026/09/image-39.png"
   },
   {
@@ -261,7 +331,11 @@
     "medio": "El Tribuno de Jujuy",
     "url_original": "https://eltribunodejujuy.com/informacion-general/2026-9-12-15-58-0-coordinan-acciones-para-el-ejercicio-provincial-de-prevencion-sismica",
     "date": "2026-09-12T20:31:57.284Z",
-    "tags": ["politica", "defensa civil", "sismos"]
+    "tags": [
+      "politica",
+      "defensa civil",
+      "sismos"
+    ]
   },
   {
     "id": "r-025",
@@ -278,7 +352,11 @@
     "medio": "El Tribuno de Jujuy",
     "url_original": "https://eltribunodejujuy.com/informacion-general/2026-9-12-13-5-0-cedems-rechazo-la-oferta-salarial-y-exige-la-devolucion-de-los-descuentos",
     "date": "2026-09-12T18:01:45.839Z",
-    "tags": ["politica", "docentes", "salarios"]
+    "tags": [
+      "politica",
+      "docentes",
+      "salarios"
+    ]
   },
   {
     "id": "r-024",
@@ -294,7 +372,11 @@
     "medio": "Jujuy al Día",
     "url_original": "https://www.jujuyaldia.com.ar/2026/09/12/refuerzos-alimentarios-para-familias-de-dos-localidades/",
     "date": "2026-09-12T15:31:55.197Z",
-    "tags": ["politica", "san pedro", "monterrico"],
+    "tags": [
+      "politica",
+      "san pedro",
+      "monterrico"
+    ],
     "img": "https://www.jujuyaldia.com.ar/wp-content/uploads/2026/08/comer-casa.webp"
   },
   {
@@ -311,7 +393,11 @@
     "medio": "El Tribuno de Jujuy",
     "url_original": "https://eltribunodejujuy.com/espectaculos/2026-9-12-9-1-0-el-placer-de-disfrutar-el-cine-a-traves-de-su-musica",
     "date": "2026-09-12T13:02:34.036Z",
-    "tags": ["insolito", "musica", "cultura"]
+    "tags": [
+      "insolito",
+      "musica",
+      "cultura"
+    ]
   },
   {
     "id": "r-022",
@@ -326,7 +412,10 @@
     "medio": "EFE Verde",
     "url_original": "https://efeverde.com/calor-inundaciones-y-fuegos-el-reto-de-los-colegios-para-adaptarse-a-un-clima-adverso/",
     "date": "2026-09-12T10:01:48.690Z",
-    "tags": ["clima", "educacion"]
+    "tags": [
+      "clima",
+      "educacion"
+    ]
   },
   {
     "id": "r-021",
@@ -343,7 +432,10 @@
     "medio": "El Tribuno de Jujuy",
     "url_original": "https://eltribunodejujuy.com/policiales/2026-9-11-17-30-0-fue-imputado-por-tentativa-de-femicidio-y-quedo-detenido-por-120-dias",
     "date": "2026-09-12T01:01:49.219Z",
-    "tags": ["policiales", "san pedro"]
+    "tags": [
+      "policiales",
+      "san pedro"
+    ]
   },
   {
     "id": "r-020",
@@ -360,7 +452,10 @@
     "medio": "Todo Jujuy",
     "url_original": "https://www.todojujuy.com/jujuy/baja-la-temperatura-jujuy-que-virus-predomina-las-internaciones-respiratorias-del-pais-n295951",
     "date": "2026-09-11T23:02:19.961Z",
-    "tags": ["insolito", "salud"],
+    "tags": [
+      "insolito",
+      "salud"
+    ],
     "img": "https://media.todojujuy.com/p/0a09a638279dbfc1cab8c607e4cbd9d3/adjuntos/227/imagenes/003/468/0003468267/790x0/smart/ninos-enfermos.png"
   },
   {
@@ -378,7 +473,10 @@
     "medio": "Todo Jujuy",
     "url_original": "https://www.todojujuy.com/policiales/callejero-fino-reconstruyeron-sus-ultimas-48-horas-y-confirmaron-que-el-arma-era-suya-n295970",
     "date": "2026-09-11T20:31:39.740Z",
-    "tags": ["policiales", "musica"],
+    "tags": [
+      "policiales",
+      "musica"
+    ],
     "img": "https://media.todojujuy.com/p/6f5938b64258eb39ab21f32a9cb55173/adjuntos/227/imagenes/003/483/0003483170/790x0/smart/policiales.jpeg"
   },
   {
@@ -396,7 +494,10 @@
     "medio": "Todo Jujuy",
     "url_original": "https://www.todojujuy.com/mundo/a-25-anos-del-ataque-las-torres-gemelas-estados-unidos-recuerda-el-hecho-que-cambio-al-pais-n295937",
     "date": "2026-09-11T18:01:45.729Z",
-    "tags": ["internacional", "memoria"]
+    "tags": [
+      "internacional",
+      "memoria"
+    ]
   },
   {
     "id": "r-017",
@@ -412,7 +513,10 @@
     "medio": "Jujuy al Día",
     "url_original": "https://www.jujuyaldia.com.ar/2026/09/11/jujuy-volco-un-auto-en-rn-66-con-una-mujer-y-dos-adolescentes-a-bordo/",
     "date": "2026-09-11T15:31:48.871Z",
-    "tags": ["policiales", "accidente"],
+    "tags": [
+      "policiales",
+      "accidente"
+    ],
     "img": "https://www.jujuyaldia.com.ar/wp-content/uploads/2026/09/vuelco-ruta-66-una-mujer-y-dos-adolescentes-resultaron-golpes-leves.png"
   },
   {
@@ -429,7 +533,10 @@
     "medio": "Todo Jujuy",
     "url_original": "https://www.todojujuy.com/jujuy/fne-2026-que-elecciones-departamentales-faltan-y-cuando-se-realizan-n295936",
     "date": "2026-09-11T13:02:33.288Z",
-    "tags": ["politica", "fne"]
+    "tags": [
+      "politica",
+      "fne"
+    ]
   },
   {
     "id": "r-015",
@@ -446,7 +553,10 @@
     "medio": "Jujuy al Día",
     "url_original": "https://www.jujuyaldia.com.ar/2026/09/11/caso-maria-luz-herrera-entendemos-que-el-juicio-se-hara-este-ano-aseguro-la-abogada-querellante/",
     "date": "2026-09-11T10:01:50.708Z",
-    "tags": ["policiales", "justicia"],
+    "tags": [
+      "policiales",
+      "justicia"
+    ],
     "img": "https://www.jujuyaldia.com.ar/wp-content/uploads/2026/09/28412w440h220c.jpg.webp"
   },
   {
@@ -463,7 +573,10 @@
     "medio": "Todo Jujuy",
     "url_original": "https://www.todojujuy.com/malvinas-el-gobierno-reforzara-el-control-actividades-extranjeras-n295931",
     "date": "2026-09-11T01:02:08.924Z",
-    "tags": ["politica", "malvinas"],
+    "tags": [
+      "politica",
+      "malvinas"
+    ],
     "img": "https://media.todojujuy.com/p/7e18d6400eed25f742413de635c84349/adjuntos/227/imagenes/003/482/0003482724/790x0/smart/el-gobierno-anuncio-sanciones-contra-otras-15-empresas-vinculadas-la-explotacion-hidrocarburos-las-islas-malvinas.jpg"
   },
   {
@@ -480,7 +593,10 @@
     "medio": "El Submarino Jujuy",
     "url_original": "https://elsubmarinojujuy.com.ar/el-lobo-planifica-su-estrategia-para-ganar-en-casa-juega-ante-rafaela/",
     "date": "2026-09-10T23:02:22.968Z",
-    "tags": ["deportes", "gimnasia"],
+    "tags": [
+      "deportes",
+      "gimnasia"
+    ],
     "img": "https://elsubmarinojujuy.com.ar/wp-content/uploads/lobo-minervino-casa-cachi-e1782126577376-660x330.jpg"
   },
   {
@@ -496,7 +612,10 @@
     "medio": "DW",
     "url_original": "https://www.dw.com/es/depredadores-digitales-el-negocio-con-nuestros-datos-personales/a-79220013",
     "date": "2026-09-10T20:31:42.221Z",
-    "tags": ["tecnologia", "privacidad"]
+    "tags": [
+      "tecnologia",
+      "privacidad"
+    ]
   },
   {
     "id": "r-011",
@@ -512,7 +631,10 @@
     "medio": "Jujuy al Día",
     "url_original": "https://www.jujuyaldia.com.ar/2026/09/10/jujuy-un-auto-se-incendio-sobre-la-rn-34/",
     "date": "2026-09-10T18:01:59.593Z",
-    "tags": ["policiales", "accidente"],
+    "tags": [
+      "policiales",
+      "accidente"
+    ],
     "img": "https://www.jujuyaldia.com.ar/wp-content/uploads/2026/09/1000680457.jpeg"
   }
 ]
