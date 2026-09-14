@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radar Impacto</title>
+<meta name="description" content="Radar Impacto — noticias policiales, insólitas, de ciencia y del mundo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4f4f5;
+    --panel:#FFFFFF;
+    --line:#e4e4e7;
+    --ink:#18181b;
+    --gray:#6b6b70;
+    --graylt:#8a8a90;
+    --red:#D3121F;
+    --gold:#C98A00;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+
+  .preview-banner{background:var(--gold);color:#fff;text-align:center;font-weight:700;font-size:13px;padding:7px 14px;letter-spacing:.2px}
+
+  .util{background:var(--ink);color:#c9c9cd;font-size:12px}
+  .util .wrap{display:flex;align-items:center;justify-content:space-between;padding:6px 20px;gap:12px;flex-wrap:wrap}
+  .util .loc{display:flex;align-items:center;gap:8px;font-weight:600;letter-spacing:.3px}
+  .util .loc b{color:#fff}
+  .util .social{display:flex;gap:10px;opacity:.8}
+
+  header{background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+  header .top{display:flex;align-items:center;justify-content:center;padding:16px 0 10px;position:relative}
+  .brand{display:flex;align-items:center;gap:10px;cursor:pointer}
+  .brand svg{display:block}
+  .brand .t{line-height:1}
+  .brand .t h1{font-family:'Saira Condensed';font-weight:800;font-size:30px;letter-spacing:.3px;margin:0;text-transform:uppercase;color:var(--ink)}
+  .brand .t h1 span{color:var(--red)}
+
+  nav.cats{border-top:1px solid var(--line);display:flex;justify-content:center}
+  nav.cats .wrap{display:flex;gap:2px;overflow-x:auto}
+  nav.cats button{background:transparent;border:0;border-bottom:3px solid transparent;color:var(--ink);padding:11px 16px;font-family:'Inter';font-size:13px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+  nav.cats button:hover{color:var(--red)}
+  nav.cats button.active{color:var(--red);border-bottom-color:var(--red)}
+
+  main{padding:26px 0 60px}
+
+  .lead-layout{display:grid;grid-template-columns:2fr 1fr;gap:28px;margin-bottom:38px}
+
+  .lead{cursor:pointer}
+  .lead .ph{aspect-ratio:16/9;border-radius:2px}
+  .lead h2{font-family:'Saira Condensed';font-size:36px;line-height:1.06;font-weight:800;margin:14px 0 10px}
+  .lead p.sub{color:#3f3f46;font-size:16px;line-height:1.5;margin:0 0 10px}
+
+  .tag{display:inline-block;color:var(--red);font-family:'Saira Condensed';font-weight:800;font-size:15px;letter-spacing:.2px;text-transform:uppercase}
+  .tag::after{content:"."}
+  .card .tag, .lead .tag{margin-right:6px}
+
+  .meta{color:var(--graylt);font-size:12px}
+  .byline{color:var(--gray);font-size:13px;font-weight:600}
+
+  .side{display:flex;flex-direction:column;gap:14px}
+  .side-card{display:flex;gap:12px;cursor:pointer;padding-bottom:14px;border-bottom:1px solid var(--line)}
+  .side-card:last-child{border-bottom:0}
+  .side-card .ph{width:96px;height:72px;flex:none;border-radius:2px}
+  .side-card h3{font-family:'Saira Condensed';font-size:17px;line-height:1.15;font-weight:700;margin:0 0 4px}
+
+  .ult-box{background:var(--panel);border:1px solid var(--line);border-radius:4px;margin-top:6px}
+  .ult-box h4{font-family:'Saira Condensed';font-size:15px;letter-spacing:.4px;text-transform:uppercase;margin:0;padding:12px 16px;border-bottom:2px solid var(--red);color:var(--ink)}
+  .ult-box ul{list-style:none;margin:0;padding:6px 16px 12px}
+  .ult-box li{padding:9px 0;border-bottom:1px solid var(--line);display:flex;gap:10px;cursor:pointer}
+  .ult-box li:last-child{border-bottom:0}
+  .ult-box .dot{color:var(--red);font-size:12px;line-height:1.5}
+  .ult-box .txt{font-size:13.5px;line-height:1.4;font-weight:600}
+  .ult-box .hh{color:var(--graylt);font-size:11px;font-weight:600;white-space:nowrap}
+
+  .section-title{font-family:'Saira Condensed';font-size:20px;font-weight:800;text-transform:uppercase;letter-spacing:.3px;border-bottom:3px solid var(--ink);padding-bottom:8px;margin:0 0 18px;display:flex;align-items:center;gap:8px}
+  .section-title .sw{color:var(--red)}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px 24px}
+  .card{cursor:pointer}
+  .card .ph{aspect-ratio:16/10;border-radius:2px}
+  .card h3{font-family:'Saira Condensed';font-size:20px;line-height:1.15;font-weight:700;margin:10px 0 6px}
+  .card p.sub{color:var(--gray);font-size:13.5px;line-height:1.45;margin:0 0 8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+  /* placeholders de foto: sin fotos reales todavía en el prototipo */
+  .ph{position:relative;overflow:hidden;background:#e9e9ec}
+  .ph::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#e9e9ec,#dcdce0)}
+  .ph svg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:34%;opacity:.35}
+  .ph .stripe{position:absolute;left:0;right:0;bottom:0;height:4px}
+  .ph.c-policiales .stripe{background:#D3121F}
+  .ph.c-insolito .stripe{background:#C98A00}
+  .ph.c-ciencia .stripe{background:#1D6FA8}
+  .ph.c-internacional .stripe{background:#2E7D45}
+
+  .article{max-width:740px;margin:0 auto;background:var(--panel);padding:30px 34px 40px;border:1px solid var(--line);border-radius:2px}
+  .article .back{display:inline-flex;align-items:center;gap:6px;color:var(--gray);font-size:13px;font-weight:700;margin-bottom:16px;cursor:pointer}
+  .article .back:hover{color:var(--ink)}
+  .article h1{font-family:'Saira Condensed';font-size:38px;line-height:1.05;font-weight:800;margin:10px 0 12px}
+  .article p.sub{color:#3f3f46;font-size:18px;line-height:1.5;margin:0 0 16px}
+  .article .metarow{display:flex;align-items:center;gap:8px;color:var(--gray);font-size:13px;margin-bottom:22px;border-bottom:1px solid var(--line);padding-bottom:20px;flex-wrap:wrap}
+  .article .body p{font-size:18px;line-height:1.78;color:#26262a;margin:0 0 18px}
+  .article .ph{aspect-ratio:16/9;border-radius:2px;margin-bottom:24px}
+
+  .example-flag{display:inline-block;color:var(--gray);font-size:11px;font-weight:700;border:1px solid var(--line);border-radius:3px;padding:2px 8px;text-transform:none;letter-spacing:0}
+
+  footer{border-top:1px solid var(--line);padding:26px 0;color:var(--gray);font-size:13px;text-align:center;background:var(--panel)}
+  footer a{color:var(--ink);font-weight:700}
+
+  @media (max-width:900px){
+    .lead-layout{grid-template-columns:1fr}
+    .grid{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:560px){
+    .grid{grid-template-columns:1fr}
+    .lead h2{font-size:26px}
+    .article{padding:22px 18px 30px}
+    .article h1{font-size:28px}
+  }
+</style>
+</head>
+<body>
+
+<div class="preview-banner">VISTA PREVIA — sitio en preparación, todavía no conectado a la carga automática de notas</div>
+
+<div class="util">
+  <div class="wrap">
+    <div class="loc"><b>SAN SALVADOR DE JUJUY</b> <span id="reloj"></span></div>
+    <div class="social">@RadarImpacto</div>
+  </div>
+</div>
+
+<header>
+  <div class="top">
+    <div class="brand" onclick="mostrarPortada()">
+      <svg width="30" height="30" viewBox="0 0 42 42" fill="none">
+        <circle cx="21" cy="21" r="15" stroke="#C98A00" stroke-width="1.6"/>
+        <circle cx="21" cy="21" r="10.5" stroke="#C98A00" stroke-width="1.6"/>
+        <circle cx="21" cy="21" r="6" stroke="#C98A00" stroke-width="1.6"/>
+        <circle cx="21" cy="21" r="2.4" fill="#D3121F"/>
+      </svg>
+      <div class="t"><h1>Radar<span>Impacto</span></h1></div>
+    </div>
+  </div>
+  <nav class="cats"><div class="wrap" id="nav"></div></nav>
+</header>
+
+<main class="wrap" id="main"></main>
+
+<footer>
+  Radar Impacto — seguinos en <a href="#" onclick="return false">@RadarImpacto</a>
+</footer>
+
+<script>
+let NOTICIAS = [];
+let filtroActual = 'Todas';
+
+const CATS = ['Todas', 'Policiales', 'Insólito', 'Ciencia', 'Internacional'];
+
+function claseCategoria(cat){
+  const m = {'Policiales':'c-policiales','Insólito':'c-insolito','Ciencia':'c-ciencia','Internacional':'c-internacional'};
+  return m[cat] || 'c-policiales';
+}
+
+function iconoPlaceholder(){
+  return `<svg viewBox="0 0 24 24" fill="none" stroke="#8a8a90" stroke-width="1.3"><rect x="3" y="6" width="18" height="13" rx="1.5"/><circle cx="12" cy="12.5" r="3.4"/><path d="M8 6l1.6-2.2h4.8L16 6"/></svg>`;
+}
+
+function ph(cat){
+  return `<div class="ph ${claseCategoria(cat)}">${iconoPlaceholder()}<div class="stripe"></div></div>`;
+}
+
+function formatoFecha(iso){
+  const d = new Date(iso);
+  return d.toLocaleDateString('es-AR', {day:'2-digit', month:'long', year:'numeric'}) + ' · ' +
+         d.toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit'}) + ' hs';
+}
+
+function formatoHora(iso){
+  return new Date(iso).toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit'});
+}
+
+function renderNav(){
+  const nav = document.getElementById('nav');
+  nav.innerHTML = CATS.map(c =>
+    `<button class="${c===filtroActual?'active':''}" onclick="filtrar('${c}')">${c}</button>`
+  ).join('');
+}
+
+function filtrar(cat){
+  filtroActual = cat;
+  history.pushState({}, '', '#/');
+  renderNav();
+  renderPortada();
+}
+
+function mostrarPortada(){
+  filtroActual = 'Todas';
+  history.pushState({}, '', '#/');
+  renderNav();
+  renderPortada();
+}
+
+function renderPortada(){
+  const main = document.getElementById('main');
+  const lista = filtroActual === 'Todas' ? NOTICIAS : NOTICIAS.filter(n => n.cat === filtroActual);
+
+  if (lista.length === 0){
+    main.innerHTML = `<p style="color:var(--gray);padding:40px 0;text-align:center">No hay notas en esta categoría todavía.</p>`;
+    return;
+  }
+
+  const destacada = lista.find(n => n.destacada) || lista[0];
+  const resto = lista.filter(n => n.id !== destacada.id);
+  const secundarias = resto.slice(0, 2);
+  const ultimas = lista.slice(0, 6);
+  const grilla = resto.slice(2);
+
+  let html = `
+  <div class="lead-layout">
+    <div class="lead" onclick="verNota('${destacada.id}')">
+      ${ph(destacada.cat)}
+      <h2><span class="tag">${destacada.cat}</span>${destacada.title}</h2>
+      <p class="sub">${destacada.sub}</p>
+      <div class="meta"><span class="byline">${destacada.credit}</span> · ${formatoFecha(destacada.date)}</div>
+    </div>
+    <div class="side">
+      ${secundarias.map(n => `
+        <div class="side-card" onclick="verNota('${n.id}')">
+          ${ph(n.cat)}
+          <div>
+            <h3><span class="tag">${n.cat}</span>${n.title}</h3>
+            <div class="meta">${formatoFecha(n.date)}</div>
+          </div>
+        </div>
+      `).join('')}
+      <div class="ult-box">
+        <h4>Últimas Noticias</h4>
+        <ul>
+          ${ultimas.map(n => `
+            <li onclick="verNota('${n.id}')">
+              <span class="dot">●</span>
+              <div>
+                <div class="txt">${n.title}</div>
+                <div class="hh">${formatoHora(n.date)} hs</div>
+              </div>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    </div>
+  </div>`;
+
+  if (grilla.length){
+    html += `
+    <div class="section-title"><span class="sw">▮</span> Más noticias</div>
+    <div class="grid">` + grilla.map(n => `
+      <div class="card" onclick="verNota('${n.id}')">
+        ${ph(n.cat)}
+        <h3><span class="tag">${n.cat}</span>${n.title}</h3>
+        <p class="sub">${n.sub}</p>
+        <div class="meta">${formatoFecha(n.date)}</div>
+      </div>
+    `).join('') + `</div>`;
+  }
+
+  main.innerHTML = html;
+}
+
+function verNota(id){
+  const n = NOTICIAS.find(x => x.id === id);
+  if (!n) return;
+  history.pushState({}, '', '#/nota/' + id);
+  renderArticulo(n);
+  window.scrollTo(0,0);
+}
+
+function renderArticulo(n){
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="article">
+      <div class="back" onclick="mostrarPortada()">&larr; Volver a portada</div>
+      <div><span class="tag">${n.cat}</span> <span class="example-flag">nota de ejemplo</span></div>
+      <h1>${n.title}</h1>
+      <p class="sub">${n.sub}</p>
+      <div class="metarow"><span class="byline">${n.credit}</span> · ${formatoFecha(n.date)}</div>
+      ${ph(n.cat)}
+      <div class="body">
+        ${n.body.map(p => `<p>${p}</p>`).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function router(){
+  const hash = location.hash || '#/';
+  const m = hash.match(/^#\/nota\/(.+)$/);
+  if (m){
+    const n = NOTICIAS.find(x => x.id === m[1]);
+    if (n){ renderArticulo(n); return; }
+  }
+  renderPortada();
+}
+
+window.addEventListener('popstate', router);
+
+function tickReloj(){
+  document.getElementById('reloj').textContent =
+    new Date().toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit'}) + ' hs.';
+}
+tickReloj();
+setInterval(tickReloj, 30000);
+
+fetch('data/noticias.json')
+  .then(r => r.json())
+  .then(data => {
+    NOTICIAS = data.sort((a,b) => new Date(b.date) - new Date(a.date));
+    renderNav();
+    router();
+  })
+  .catch(() => {
+    document.getElementById('main').innerHTML = '<p style="color:var(--gray);padding:40px 0">No se pudieron cargar las notas.</p>';
+  });
+</script>
+
+</body>
+</html>
